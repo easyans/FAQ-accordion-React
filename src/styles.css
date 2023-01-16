@@ -1,0 +1,48 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  background-color: rgb(14, 178, 224);
+  max-width: 600px;
+  padding: 10px 20px 20px;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container h2 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0 20px 0;
+  color: rgb(255, 255, 255);
+}
+
+button {
+  background: rgb(211, 216, 253);
+  color: rgb(15, 15, 15);
+  border: 2px solid rgb(12, 12, 12);
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+section div,
+section p {
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 0px;
+}
+
+section p {
+  padding-bottom: 20px;
+}
+
+section > div.closed {
+  margin-bottom: 20px;
+}
